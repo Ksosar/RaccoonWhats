@@ -1,0 +1,63 @@
+verificar que la versión de python sea por lo menos 3.7
+
+Menu->Terminal->New Terminal
+$ python --version
+
+Crear el entorno virtual
+$ python -m venv env
+
+Seleccionar el interprete del entorno virtual
+crtl + shift + P
+Buscamos: python select interpreter
+De la lista elegimos el interprete del entorno virtual (env)
+
+Activar entorno virtual
+Menu->Terminal->New Terminal
+o
+crtl + shift + p 
+buscar Terminal create new integrated terminal
+
+Actualizar pip
+python -m pip install --upgrade pip
+
+python -m pip install django
+
+django-admin startproject status
+
+
+python manage.py runserver
+
+
+django-admin startapp usuarios
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mydb',
+        'USER': 'root',
+        'PASSWORD': 'admin',
+        'HOST':'localhost',
+        'PORT':'3306',
+    }
+}
+
+Python 3.8
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install -y python3-mysqldb
+pip3 install pymysql
+
+
+
+settings.py
+import pymysql
+pymysql.install_as_MySQLdb()
+
+
+
+create superuser 
+
+ python manage.py createsuperuser
+
+
+

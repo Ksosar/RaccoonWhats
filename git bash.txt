@@ -1,0 +1,72 @@
+git --version
+
+git config --global user.name "Karlo Sosa"
+
+git config --global user.email karlososar@gmail.com
+
+git config --global core.editor "code --wait"
+
+git config --global -e
+
+windows
+git config --global core.autocrlf true  
+
+mac-linux 
+git config --global core.autocrlf input
+
+help
+git config -h
+
+-----
+
+inicializar git
+git init
+
+abre visual code 
+
+code .
+
+check status
+git status   -  git status -s (column view)
+
+
+git add .(todo) o el nombre de los files
+
+
+borrar archivo 
+
+git rm <file>
+
+recover from stage  
+gir restore --staged <file>
+
+agregar and commit
+.gitignore
+
+todo el repositario
+
+git log
+git log --oneline
+
+git branch
+
+git checkout -b ramab
+
+from main
+git merge ramab  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
