@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'message.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'raccoondev_rw',
-        'USER': '337156',
-        'PASSWORD': 'Fedex2016*',
-        'HOST':'mysql-raccoondev.alwaysdata.net',
+        'NAME': 'rwhatsapp',
+        'USER': 'root',
+        'PASSWORD': '12345',
+        'HOST':'localhost',
         'PORT':'3306',
     }
 }
