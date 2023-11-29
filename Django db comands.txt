@@ -5,3 +5,7 @@ python manage.py migrate
 django-admin startapp empleados
 
 git clone https://github.com/Ksosar/RaccoonWhats.git
+
+git init
+git remote add origin https://github.com/Ksosar/RaccoonWhats.git
+git pull origin master
