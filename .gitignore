@@ -160,3 +160,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 preparing EC2 instance.txt
+requirements install.txt
+
+Django db comands.txt
